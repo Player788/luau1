@@ -5,3 +5,4 @@
 > - [ ] Added Colorpicker
 > - [ ] Added slider increment
 > - [ ] Added paths & flags
+> - [ ] DEOBFUSCATED OPEN SOURCE
