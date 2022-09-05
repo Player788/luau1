@@ -199,5 +199,5 @@ The above boolean value "true" is whether or not the current buttons will be del
 Dropdown:Set("dropdown option")
 ```
 
-### Check script logs
+## Check script logs
 Press window icon (Top left)
