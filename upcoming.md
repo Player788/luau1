@@ -1,6 +1,6 @@
 # Next Update 
-> - [ ] Decrease UI Size
-> - [ ] Add Paragraphs
-> - [ ] Add Colorpicker
-> - [ ] Add slider increment
-> - [ ] Add paths & flags
+> - [ ] Decreased UI Size
+> - [ ] Added Paragraphs
+> - [ ] Added Colorpicker
+> - [ ] Added slider increment
+> - [ ] Added paths & flags
