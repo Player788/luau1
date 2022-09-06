@@ -50,7 +50,7 @@ Time = <number> - The duration of the notfication.
 ## Creating a Button
 ```lua
 Section:AddButton({
-	Name = "Button!",
+	Text = "Name",
 	Callback = function()
       		print("button pressed")
   	end    
