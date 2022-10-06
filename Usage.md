@@ -28,6 +28,7 @@ local Section = Tab:AddSection("Name")
 Name = <string> - The name of the section.
 ]]
 ```
+Section header won't be visible for now
 
 ## Notifying the user
 ```lua
