@@ -8,7 +8,7 @@ local Library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Play
 
 ## Creating a Window
 ```lua
-local Window = Library:Window("UI name", "Script name", "rbxassetid://YourIconId")
+local Window = local Window = Library:Window({Name = "UI name", ScriptName = "Script name", Icon = "rbxassetid://YourIconId", Hotkey = {"Semicolon", false}, Save = true, SaveFolderName = "Test2"})
 ```
 
 ## Creating a Tab
