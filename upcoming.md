@@ -1,4 +1,4 @@
-# Next Update 
+# Upcoming 
  - [ ] Decreased UI Size
  - [ ] Added Paragraphs
  - [ ] Toggle UI keybind
