@@ -3,7 +3,7 @@ S' Library Usage
 
 ## Booting the Library
 ```lua
-local Library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Player788/luau1/main/source.lua')))()
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Player788/luau1/main/source.lua'))()
 ```
 
 ## Creating a Window
@@ -119,7 +119,7 @@ Make sure you make your slider a variable (local CoolSlider = Section:AddSlider.
 
 ## Creating a Label
 ```lua
-Tab:AddLabel("Label")
+Section:AddLabel("Label")
 ```
 
 ### Changing the value of an existing label
