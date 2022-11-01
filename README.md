@@ -1,7 +1,7 @@
 # S' Library
 S' Library Usage
 
-## Booting the Library
+## Loading the Library
 ```lua
 local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Player788/luau1/main/source.lua'))()
 ```
@@ -30,7 +30,7 @@ Name = <string> - The name of the section.
 ```
 Section header won't be visible for now
 
-## Notifying the user
+## Creating a Notification
 ```lua
 Library:Notification({
 	Title = "Title",
@@ -64,7 +64,7 @@ Callback = <function> - The function of the button.
 ```
 
 
-## Creating a Checkbox toggle
+## Creating a toggle
 ```lua
 Section:AddToggle({
 	Text = "Name",
@@ -128,7 +128,7 @@ CoolLabel:Set("Label New!")
 ```
 
 
-## Creating an Adaptive Input
+## Creating a Textbox
 ```lua
 Section:AddTextBox({
 	Text = "Name",
@@ -164,7 +164,7 @@ Callback = <function> - The function of the bind.
 ]]
 ```
 
-### Chaning the value of a bind
+### Changing the value of a bind
 ```lua
 Bind:Set(Enum.KeyCode.E)
 ```
@@ -200,5 +200,6 @@ The above boolean value "true" is whether or not the current buttons will be del
 Dropdown:Set("dropdown option")
 ```
 
-## Check script logs
-Press window icon (Top left)
+## MISC
+Press window icon (Top left) to view script logs
+
