@@ -205,5 +205,5 @@ Press window icon (Top left) to view script logs
 
 ## Destroying the Window
 ```lua
-OrionLib:Destroy()
+Library:Destroy()
 ```
