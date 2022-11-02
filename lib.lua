@@ -24,7 +24,7 @@ function Library.Create(Class, Parent, Table)
 		if (success) then
 			newObj[i] = v
 		else
-			warn(err)
+			--warn(err)
 		end
 	end
 	return newObj
@@ -61,6 +61,9 @@ end
 
 Library.Tween = function(GuiObj, Property, Value, Direction, Style, Duration)
 	-- implement TweenService
+	Direction = Direction or "InOut"
+	Style = Style or "Linear"
+	Duration = Duration or 0.1
 	local nTweenInfo = TweenInfo.new(Duration, Enum.EasingStyle[Style], Enum.EasingDirection[Direction])
 	local Tween = TweenService:Create(GuiObj, nTweenInfo, {[Property] = Value})
 	Tween:Play()
