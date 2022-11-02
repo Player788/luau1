@@ -201,6 +201,8 @@ The above boolean value "true" is whether or not the current buttons will be del
 Dropdown:Set("dropdown option")
 ```
 
+## Miscellaneous
+
 ### Using Keys
 Keys are used as global variables to store (Values, Tables etc.) Toggles, Sliders, Dropdowns & binds. Filesystem not yet implemented.
 Example:
@@ -215,7 +217,7 @@ Tab:AddToggle({
 print(Library:Get("toggle"))
 ```
 
-## Destroying the Window
+### Destroy a Window
 ```lua
 Library:Destroy()
 ```
