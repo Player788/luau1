@@ -8,7 +8,15 @@ local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Playe
 
 ## Creating a Window
 ```lua
-local Window = Library:Window({Name = "UI name", ScriptName = "Script name", Creator = "User/Team", Icon = "rbxassetid://YourIconId", Hotkey = {"Semicolon", false}, Save = true, SaveFolderName = "Test"})
+local Window = Library:Window({Name = "Name of Hub/Script", Creator = "User/Team", Icon = "rbxassetid://YourIconId", Hotkey = {"Semicolon",false} })
+
+--[[
+Name = <string> - The name of the UI.
+Creator = <string> - The name of the creator(s)
+Icon = <string> - URL to the image you want displayed on the window.
+Hotkey = <array> - [1] Keycode to toggle the window, [2] Boolean "false" to make the window toggle only.
+]]
+
 ```
 
 ## Creating a Tab
