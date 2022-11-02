@@ -200,6 +200,20 @@ The above boolean value "true" is whether or not the current buttons will be del
 Dropdown:Set("dropdown option")
 ```
 
+### Using Keys
+Keys are used in Toggles, Sliders, Dropdowns & binds as a global variables,
+Example:
+```lua
+Tab:AddToggle({
+    Name = "Toggle",
+    Default = true,
+    Key = "toggle"
+})
+```
+```lua
+print(Library:Get("toggle"))
+```
+
 ## MISC
 Press window icon (Top left) to view script logs
 
