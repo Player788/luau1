@@ -191,17 +191,18 @@ Callback = <function> - The function of the dropdown.
 
 ### Adding a set of new Dropdown buttons to an existing menu
 ```lua
-Dropdown:Refresh(List<table>,true)
+Dropdown:Refresh(List<table>, true)
 ```
 
 The above boolean value "true" is whether or not the current buttons will be deleted.
+
 ### Selecting a dropdown option
 ```lua
 Dropdown:Set("dropdown option")
 ```
 
 ### Using Keys
-Keys are used in Toggles, Sliders, Dropdowns & binds as a global variables,
+Keys are used as global variables to store (Values, Tables etc.) Toggles, Sliders, Dropdowns & binds. Filesystem not yet implemented.
 Example:
 ```lua
 Tab:AddToggle({
@@ -213,9 +214,6 @@ Tab:AddToggle({
 ```lua
 print(Library:Get("toggle"))
 ```
-
-## MISC
-Press window icon (Top left) to view script logs
 
 ## Destroying the Window
 ```lua
