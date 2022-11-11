@@ -224,7 +224,7 @@ Tab:AddToggle({
     Key = "toggle"
 })
 ```
-### Getting a Key
+#### Getting a Key
 ```lua
 print(Library:Get("toggle"))
 ```
