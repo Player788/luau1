@@ -195,7 +195,7 @@ Section:AddDropDown({
 --[[
 Name = <string> - The name of the dropdown.
 Default = <string> - The default value of the dropdown.
-Options = <table> - The options in the dropdown.
+Options = <table> - The options in the dropdown; strings, numbers, objects(returns name).
 Callback = <function> - The function of the dropdown.
 ]]
 ```
