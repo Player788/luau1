@@ -214,7 +214,7 @@ Dropdown:Set("dropdown option")
 
 ## Miscellaneous
 
-### Using Keys
+### Adding Keys
 Keys are used as global variables to store (Values, Tables etc.) Toggles, Sliders, Dropdowns & binds. Filesystem not yet implemented.
 Example:
 ```lua
@@ -224,6 +224,7 @@ Tab:AddToggle({
     Key = "toggle"
 })
 ```
+### Getting a Key
 ```lua
 print(Library:Get("toggle"))
 ```
