@@ -1,5 +1,5 @@
 # 7Exec Library
-S' Library Usage
+7Exec Library Usage
 
 ## Loading the Library
 ```lua
