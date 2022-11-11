@@ -38,7 +38,7 @@ Name = <string> - The name of the section.
 ]]
 ```
 ```diff
-- Section header won't be visible for now
+- Add alternating Sections (Section1[Elements] ... Section2[Elements]) because AutomaticSizeXY doesn't support Scale. 
 ```
 
 ## Creating a Notification
