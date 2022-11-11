@@ -1,4 +1,4 @@
-# S' Library
+# 7Exec Library
 S' Library Usage
 
 ## Loading the Library
