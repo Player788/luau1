@@ -100,7 +100,7 @@ Library.EnumToString = function(KeyCode)
 	return "Failed pcall ?"
 end
 
-Library.Draggable = function(DragPoint, ToMove)
+Library.Drag = function(DragPoint, ToMove)
 	pcall(function()
 		local Dragging, DragInput, MousePos, FramePos = nil, nil, nil, nil
 		DragPoint.InputBegan:Connect(function(Input)
