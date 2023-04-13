@@ -78,12 +78,14 @@ Library.MouseHover = function(GuiObj, Property, Value1, Value2, GuiObj2, Propert
 	end)
 end
 
-Library.ProxyHover = function(GuiObj, GuiObj2, Property, Value1, Value2)
+Library.ProxyHover = function(GuiObj, GuiObj2, Property, Value1, Value2, callback)
 	GuiObj.MouseEnter:Connect(function()
 		Library.Tween(GuiObj2, Property, Value1)
+		if callback then callback(true) end
 	end)
 	GuiObj.MouseLeave:Connect(function()
 		Library.Tween(GuiObj2, Property, Value2)
+		if callback then callback(false) end
 	end)
 end
 
